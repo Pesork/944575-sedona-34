@@ -1,20 +1,493 @@
-body {
-  background-color: tomato;
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
 }
 @font-face {
-  font-family: "Font";
-  src: url("font.woff2") format("woff2"),
-       url("font.woff") format("woff");
-  font-weight: 400;
+  font-family: "PT Sans";
   font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
 }
-.header {
-  position: absolute;
-height: 70px;
-left: 40px;
-right: 40px;
-top: 0px;
 
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+  font-display: swap;
 }
+
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background: #FFFFFF;
+}
+
+.header {
+
+}
+
+.header__nav {
+
+}
+.nav {
+
+}
+
+.nav__logo {
+
+}
+
+.nav__list {
+
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav__user {
+
+}
+
+.user {
+
+}
+
+.user__item {
+
+}
+
+.user__search {
+  color: #333333;
+  background: #FFFFFF;
+}
+
+.user__favorite {
+  color: #333333;
+  background: #FFFFFF;
+}
+
+.user__button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #756157;
+}
+
+.main {
+  background-image: url("img/index-background.jpg");
+}
+
+.main__title {
+
+}
+
+.main__welcome {
+
+}
+
+.main__background {
+
+}
+
+.advantages__title {
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+}
+
+.advantages__discription {
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: #333333;
+}
+
+.advantages__list {
+
+}
+
+.advantages__item {
+
+}
+
+.advantage {
+
+}
+
+.advantage__title {
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.advantage__discription {
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.advantage__img {
+position: absolute;
+left: 33.33%;
+right: 0%;
+top: 0%;
+bottom: 74.98%;
+}
+
+.item-advantage {
+
+}
+
+.item-advantage__title {
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.item-advantage__discription {
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.advantage {
+
+}
+
+.advantage__title {
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.advantage__title--modify {
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+}
+
+.advantage__discription {
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.advantage__discription--modify {
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+}
+
+.advantage__img-two {
+
+}
+
+.interested {
+
+}
+
+.interested-main {
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #000000;
+}
+
+.interested-description {
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+}
+
+.search {
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+}
+
+.footer {
+
+}
+
+.footer__mailing {
+
+}
+
+.mailing {
+
+}
+
+.mailing__title {
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+}
+
+.mailing__description {
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+}
+
+.mailing__form {
+
+}
+
+.subscribe {
+
+}
+
+.subscribe__email {
+
+}
+
+.subscribe__follow {
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+}
+
+.footer__list {
+
+}
+
+.footer__item {
+
+}
+
+.footer__link {
+
+}
+
+.social {
+
+}
+
+.social__img {
+
+}
+
+.footer__phone {
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+color: #000000;
+}
+
+.footer__link {
+
+}
+
+.social {
+
+}
+
+.social__img {
+
+}
+
+
+
+
+
+
+
+
+.main__crumbs {
+
+}
+
+.crumbs {
+
+}
+
+.crumbs__item {
+
+}
+
+.crumbs__link {
+
+}
+
+.crumbs__link--icon {
+
+}
+
+.filter {
+
+}
+
+.filter__form {
+
+}
+
+.filter__infrastructure {
+
+}
+
+.options {
+
+}
+
+.options__legend {
+
+}
+
+.options__choice {
+
+}
+
+.options__choice--checkbox {
+
+}
+
+.options__choice--radio {
+
+}
+
+.filter__type-housing {
+
+}
+
+.filter__price {
+
+}
+
+.options__field {
+
+}
+
+.filter__submit {
+
+}
+
+.button {
+
+}
+
+.button--accent {
+
+}
+
+.filter__reset {
+
+}
+
+.assortment {
+
+}
+
+.assortment__counter {
+
+}
+
+.assortment__sorting {
+
+}
+
+.assortment__link {
+
+}
+
+.assortment__link--active {
+
+}
+
+.assortment__list {
+
+}
+
+.assortment__item {
+
+}
+
+.card {
+
+}
+
+.card__title {
+
+}
+
+.card__desc {
+
+}
+
+.card__link {
+
+}
+
+.card__rate {
+
+}
+
+.card__img {
+
+}
+
+.pages {
+
+}
+
+.pages__item {
+
+}
+
+.pages__link {
+
+}
+
+.assortment__hostel-page {
+
+}
+
+.assortment__sort {
+
+}
+
+.sort {
+
+}
+
+.sort__type {
+
+}
+
